@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 15px;
+    }
+
+    /* ----------------------Header------------------ */
+
+    .header-box {
+        justify-content: flex-start;
+    }
+
+    .navigation-list {
+        display: flex;
+        margin-left: 123px;
+    }
+
+    .address-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-left: 118px; 
+        gap: 4px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hero-section {
+        background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+        url(../images/heroimage-tablet.jpg);
+
+        max-width: 768px;
+        min-height: 436px;
+    }
+
+    .hero-title {
+        width: 485px;
+
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+    }
+
+}
