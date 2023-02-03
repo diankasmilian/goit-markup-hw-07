@@ -37,9 +37,13 @@ margin-right: auto;
 }
 
 .card-title {
-font-weight: 600;
+/* font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em; */
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 }
 
@@ -47,6 +51,7 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+font-weight: 500;
 }
 
 .title-section {
@@ -74,6 +79,8 @@ align-items: center;
 .header-box {
     display: flex;
     justify-content: space-between;
+
+    padding: 0 15px;
 }
 
 /* Лого */
@@ -174,6 +181,7 @@ display: none;
 
 .menu {
     padding-top: 24px;
+
     padding-bottom: 24px;
     padding-left: 0;
     padding-right: 0;
@@ -253,12 +261,29 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
  /*----- Description section */
 
- .description-section {
+ /* .description-section {
     padding: 120px 0px;
+    } */
+
+    .description-section {
+        padding: 96px 0;
     }
+
+.description-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+}
+
+.description-item {
+    width: 396px;
+} 
 
 .description-title {
     margin-top: 0;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .description-text {
@@ -272,15 +297,10 @@ letter-spacing: 0.02em;
 color: var(--text);
 }
 
-.description-list {
-    display: flex;
-}
-.description-item {
-    width: 264px;
-}
-.description-item:not(:last-child) {
+
+/* .description-item:not(:last-child) {
 margin-right: 24px;
-}
+} */
 
 .icon-description {
     display: flex;
@@ -291,6 +311,8 @@ margin-right: 24px;
 height: 112px;
 border-radius: 4px;
 margin-bottom: 8px;
+
+display: none;
 }
 
 

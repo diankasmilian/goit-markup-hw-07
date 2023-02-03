@@ -40,11 +40,22 @@
     }
 
     .hero-title {
+        margin-bottom: 40px;
         width: 485px;
 
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
     }
+
+    .description-list {
+        justify-content: flex-start;
+    }
+
+    .description-item {
+        width: 356px;
+    }
+
+
 
 }

@@ -17,6 +17,10 @@
         margin-left: 332px;
     }
 
+    .address:not(:last-child) {
+    margin-right: 40px;
+}
+
     .hero-section {
         background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -25,5 +29,13 @@
 
         max-width: 1440px;
         min-height: 600px;
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+        
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.07;
     }
 }
