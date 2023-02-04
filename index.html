@@ -37,7 +37,7 @@
      <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
      </ul>
 
-     <button class="menu">
+     <button class="menu"  type="button" data-menu-open>
       <svg width="32" height="22">
         <use href="./images/symbol-defs.svg#menu"></use>
       </svg>
@@ -116,18 +116,27 @@
         <li class="work-item">
           <img src="./images/img1.jpg"
           alt="computer statistics"
+          srcset="
+          ./images/img1.jpg 1x,
+          ./images/img1-2x.jpg 2x"
           width="360"
           height="300">
         </li>
         <li class="work-item">
           <img src="./images/img2.jpg"
           alt="mobile application"
+          srcset="
+          ./images/img2.jpg 1x,
+          ./images/img2-2x.jpg 2x"
           width="360"
           height="300">
         </li>
         <li class="work-item">
           <img src="./images/img3.jpg"
           alt="phone in hand"
+          srcset="
+          ./images/img3.jpg 1x,
+          ./images/img3-2x.jpg 2x"
           width="360"
           height="300">
         </li>
@@ -144,8 +153,12 @@
       <ul class="team-list list">
         <li class="team-item">
          
-            <img class="team-foto" src="./images/imgteam1.jpg"
+            <img class="team-foto" 
+            src="./images/imgteam1.jpg"
             alt="first team member"
+            srcset="
+            ./images/imgteam1.jpg 1x,
+            ./images/imgteam1-2x.jpg 2x"
             width="264"
             height="260" >
               <div class="team-name">
@@ -178,8 +191,12 @@
 
         <li class="team-item">
           
-            <img class="team-foto" src="./images/imgteam2.jpg"
+            <img class="team-foto" 
+            src="./images/imgteam2.jpg"
             alt="second team member"
+            srcset="
+            ./images/imgteam2.jpg 1x,
+            ./images/imgteam2-2x.jpg 2x"
             width="264"
             height="260">
             <div class="team-name">
@@ -213,9 +230,11 @@
         <li class="team-item">
           
             <img class="team-foto" 
-            srcset="./images/imgteam3"
             src="./images/imgteam3.jpg"
             alt="third team member"
+            srcset="
+            ./images/imgteam3.jpg 1x,
+            ./images/imgteam3-2x.jpg 2x"
             width="264"
             height="260">
             <div class="team-name">
@@ -248,8 +267,12 @@
 
         <li class="team-item">
          
-            <img class="team-foto" src="./images/imgteam4.jpg"
+            <img class="team-foto" 
+            src="./images/imgteam4.jpg"
             alt="fourth team member"
+            srcset="
+            ./images/imgteam4.jpg 1x,
+            ./images/imgteam4-2x.jpg 2x"
             width="264"
             height="260">
             <div class="team-name">
@@ -470,7 +493,68 @@
         </div>
       </div>
 
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container">
+          <div class="mob-menu-top">
+            <button type="button" class="btn-close mob-btn" data-menu-close>
+              <svg class="icon-close" width="8" height="8">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+              </button>
+    
+            
+               <nav>
+                <ul class="list mob-menu-list">
+                  <li class="mob-menu-item"> <a class="mob-menu-link" href="./index.html">Studio</a> </li>
+                  <li class="mob-menu-item"> <a class="mob-menu-link" href="./portfolio.html">Portfolio</a> </li>
+                  <li class="mob-menu-item"> <a class="mob-menu-link" href="#">Contacts</a> </li>
+                </ul>
+               </nav>
+          </div>
+  
+            <div class="mob-menu-bottom">
+              <ul class="list mob-address-list">
+                <a class="mob-address" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="mob-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </ul>
+    
+                <ul class="mob-social-list list">
+                  <li class="mob-social-items">
+                    <a class="mob-social-link" href="">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-social-items">
+                    <a class="mob-social-link" href="">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-social-items">
+                    <a class="mob-social-link" href="">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-social-items">
+                    <a class="mob-social-link" href="">
+                      <svg class="social-icon" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        
+        </div>
+      </div>
+
       <script src="./js/modal.js"></script>
+      <script src="./js/menu.js"></script>
 
   </body>
 </html>
