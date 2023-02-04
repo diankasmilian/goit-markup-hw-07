@@ -83,4 +83,28 @@
     }
 
     /* ----------------------Footer------------------ */
+
+    .footer-container {
+        justify-content: flex-start;
+
+        padding-left: 108px;
+        gap: 72px 24px;
+    }
+
+    .logo.bottom {
+        justify-content: flex-start;
+    }
+
+    .social-title {
+        text-align: left;
+    }
+
+    .subscribe-form {
+        gap: 24px;
+    }
+
+    .subscribe-form input {
+        width: 264px;
+        margin-bottom: 0;
+    }
 }
