@@ -29,14 +29,16 @@
         display: none;
     }
 
+    /* ----------------------Hero------------------ */
+
     .hero-section {
+        padding-top: 111px;
+        padding-bottom: 108px;  
+
         background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
         url(../images/heroimage-tablet.jpg);
-
-        max-width: 768px;
-        min-height: 436px;
     }
 
     .hero-title {
@@ -48,14 +50,37 @@
         line-height: 1.07;
     }
 
+    /* ----------------------Description------------------ */
+
     .description-list {
-        justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
     }
 
     .description-item {
         width: 356px;
     }
 
+    .description-title {
+        text-align: left;
+    }
 
+      /* ----------------------Team------------------ */
 
+    .team-list {
+        gap: 72px 24px;
+    }
+
+    /* ----------------------Customers------------------ */
+
+    .customers-list {
+        gap: 72px 24px;
+    }
+
+    .customers-link {
+        width: 168px;
+    }
+
+    /* ----------------------Footer------------------ */
 }
