@@ -195,7 +195,7 @@ display: none;
 /*----- Hero section */
 
 .hero-section {
-margin: 0 auto;
+/* margin: 0 auto; */
 padding-top: 192px;
 padding-bottom: 192px;
 
@@ -215,9 +215,9 @@ text-align: center;
 .hero-title {
     margin-top: 0;
 margin-left: auto;
-margin-bottom: 48px;
+margin-bottom: 72px;
 margin-right: auto;
-width: 318px;
+width: 330px;
 
 color: var(--primery-bg-color);
 /* font-weight: 600;
