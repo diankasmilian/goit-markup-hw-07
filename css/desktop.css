@@ -112,6 +112,8 @@
 
     .work-section {
         display: flex;
+        padding-top: 0;
+        padding-bottom: 120px;
     }
 
     /* ----------------------Team------------------ */

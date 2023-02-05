@@ -1052,11 +1052,13 @@ fill: var(--primary-brand);
 }
 
 .mob-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
 
     background-color: var(--primery-bg-color);
 }
